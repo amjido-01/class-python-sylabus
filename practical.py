@@ -9,6 +9,7 @@ for x in myList:
 # print(myList[  :2  ][::-1])
 # print(myList[  2:  ])
 print(myList[-1])
+
 def highestValue(arg):
     biggestValue = arg[0]
     for num in arg:
@@ -18,9 +19,9 @@ def highestValue(arg):
             
         
         
-# highestValue(myList)
 
 
 y = 'str'
 print(type(int('6')))
 print(range(10))
+print('hello world')
