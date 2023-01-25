@@ -11,7 +11,11 @@ for x in myList:
 print(myList[-1])
 
 def get_highest_value(arg):
-    
+    highestVal = arg[0]
+    for num in arg:
+        if num > highestVal:
+            highestVal = num
+    print(highestVal)
             
 
 
