@@ -17,9 +17,6 @@ def highestValue(arg):
             biggestValue = num
     print(biggestValue)
             
-        
-
-
 
 
 y = 'str'
