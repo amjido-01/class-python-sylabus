@@ -10,12 +10,8 @@ for x in myList:
 # print(myList[  2:  ])
 print(myList[-1])
 
-def highestValue(arg):
-    biggestValue = arg[0]
-    for num in arg:
-        if num > biggestValue:
-            biggestValue = num
-    print(biggestValue)
+def get_highest_value(arg):
+    
             
 
 
