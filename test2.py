@@ -1,18 +1,17 @@
-x = 4
-y = 2
+x = 4 
+#x is a variable that hold number 4
+y = 4
 
+"""
+this is a logic that
+explain how if 
+statement works in python
+gsrfytuiop
+dfghjkl;'
+dfghjkl;
+"""
 
-# if x > y:
-#     print(x, 'is greater than ', y)
-# else:
-#     print(x, 'is not greater than y')
-    
-    
-def add_num(num1, num2):
-    return num1 + num2
-
-
-result = add_num(x, y)
-print(result)
-    
-    
+if x == y:
+    print('equal')
+else:
+    print('not equal')
