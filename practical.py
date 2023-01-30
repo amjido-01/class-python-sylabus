@@ -1,4 +1,4 @@
-def my_function()
-    for num in range(start, end+1):
+def my_function(s, e+1)
+    for num in range(s, e+1):
         if num % 7 == 0 and num % 5 == 0:
-            
+            return 
