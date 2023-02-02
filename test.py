@@ -1,5 +1,6 @@
 x = [1,3,5,69,4,7,9];
 print(x[0:4])
+
 def myfunc(arg):
     higherVal = arg[0];
     for num in arg:
@@ -12,7 +13,7 @@ myfunc(x)
 
 
 def control_unit(instruction):
-    opcode = instruction[0:6]
+    opcode = instruction[0:4]
     if opcode == "000000":
         # Handle R-type instruction
         pass
