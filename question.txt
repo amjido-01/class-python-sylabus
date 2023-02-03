@@ -1,0 +1,14 @@
+Q1
+write 5 examples of a python program to find those numbers 
+that are divisible by and 7 and multiple of 5 between 1500 and 2700 both 
+inclusive and give me the pseudocode algorithm
+
+Q2
+write a program that wil calculate the cost of installing a fiber optic cable at a cost of .87per ft for a company.
+your program should display the company name and the total cost . create a flowchart and write a pseudocode for the program algorithm
+in your documentation as well.
+
+Q3
+write a python program to check whether a year is a leap or not.
+create a flowchart and write a pseudocode for the program algorithm
+in your documentation as well.
