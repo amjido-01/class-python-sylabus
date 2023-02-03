@@ -29,3 +29,12 @@ def control_unit(instruction):
     
 result = control_unit(x)
 print(result)
+
+total = 0
+def add_num(vals):
+    result = 0
+    for x in vals:
+        result += vals
+    return result
+
+print(add_num(x))
