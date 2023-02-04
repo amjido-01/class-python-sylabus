@@ -8,11 +8,13 @@
         #list = [1, "str", True]
         
 user_name_b = []
+user_name_greater_four = []
 users = ["umar", "bala", "kalid", "bashir", "bukhari"]
 for user in users:
-    if user.startswith('b'):
-        user_name_b.append(user)
-print(user_name_b)
+    if len(user) > 5:
+        user_name_greater_four.append(user)
+
+print(user_name_greater_four)
 # function 
 
 # loopng
@@ -30,3 +32,10 @@ MyAgeIs = 20
 
 #snake
 my_name_is = 'bala'
+
+
+
+# block of code that execute when called
+#1500 -> 2700
+#multiple of five and divisble of 7
+
