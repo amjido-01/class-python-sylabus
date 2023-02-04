@@ -23,3 +23,13 @@
 
 # result = divisible_by_7_and_multiple_of_5(1500, 2700)
 # print(result)
+
+
+numbers = [1,2,3,4,5,5]
+def add_nums(vals):
+    total = 0
+    for x in vals:
+        total = total + x
+    return total
+
+print(add_nums(numbers))
