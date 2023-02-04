@@ -39,3 +39,15 @@ my_name_is = 'bala'
 #1500 -> 2700
 #multiple of five and divisble of 7
 
+# for x in range(20, 30+1):
+#     print(x)
+
+# print(10 % 3)
+
+numbers = []
+def nums_divisible_multple(start, end):
+    for number in range(start, end + 1):
+        if number % 7 == 0 and number % 5 == 0:
+            numbers.append(number)
+    print(numbers)
+nums_divisible_multple(1500, 2700)
