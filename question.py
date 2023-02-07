@@ -1,9 +1,16 @@
-cost_per_ft = 0.87
-company_name = input('Enter company name: ')
-company_total_supply = int(input('Enter amount: '))
+# range 1500 - 2700
+# range(10, 20, 2)
+# function 
+# looping -> 
+# if statement
+# divisble 
 
-def calculate_total_fiber(cost_per_ft, company_name, company_total_supply):
-    result = cost_per_ft * company_total_supply
-    print(f' {company_name} installed  {company_total_supply} fiber cable and total cost is {result}!')
-    
-calculate_total_fiber(cost_per_ft, company_name, company_total_supply)
+numbers = []
+def find_values(start, end):
+    for x in range(start, end + 1):
+        if x % 7 == 0 and x % 5 == 0:
+            numbers.append(x)
+    print(numbers)
+
+
+find_values(1500, 2700)
