@@ -6,3 +6,7 @@
 #     print(numbers)
 
 # finding_numbers(1500, 2700)
+
+cost_fiber = 0.87
+company_name = input('Enter your company name: ')
+def fiber_installation()
