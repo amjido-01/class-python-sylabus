@@ -1,16 +1,15 @@
-# range 1500 - 2700
-# range(10, 20, 2)
-# function 
-# looping -> 
-# if statement
-# divisble 
-
-numbers = []
-def find_values(start, end):
-    for x in range(start, end + 1):
-        if x % 7 == 0 and x % 5 == 0:
-            numbers.append(x)
-    print(numbers)
+# price per ft
+# company name
+# total cost
+# function
 
 
-find_values(1500, 2700)
+
+price_per_ft = 0.87
+company_name = 'Sir_Man Global Tech'
+total_cost = int(input('Enter total installed: '))
+
+def cal_total_fiber_cable(price_per_ft, company_name, total_cost):
+    result = price_per_ft * total_cost
+    print(f' { company_name } installed { total_cost } fibre cable and the total price is { result }')    
+cal_total_fiber_cable(price_per_ft, company_name, total_cost)
