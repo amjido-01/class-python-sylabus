@@ -1,8 +1,4 @@
-# is year a leap or not
-# ask for the
-# function
-
-year = int(input('Enter the year'))
+year = int(input('Enter the year: '))
 
 def is_leap_year(year):
     if (year % 4 == 0) or (year % 400 == 0 or year % 100 == 0):
