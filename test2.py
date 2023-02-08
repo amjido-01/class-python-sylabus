@@ -11,10 +11,13 @@ m = 4.7
 
 # sequence
 
-frinds = ['najib', 'umar']
-sch_frnds = ('najib', 'umar')
-print(type(frinds))
-print(type(sch_frnds))
+student = {
+    "name": "sharef",
+    "age": 40,
+    "school": "kust",
+    "dept": "csc"
+}
 
-ages = range(10)
-print(ages)
+
+print(student["dept"])
+
