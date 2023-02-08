@@ -1,11 +1,11 @@
-values = [];
-def my_fun(start, end):
-    for value in range(start, end + 1):
-        if value % 5 == 0 and value % 7 == 0:
-            values.append(value)
-    print(values)
+# values = [];
+# def my_fun(start, end):
+#     for value in range(start, end + 1):
+#         if value % 5 == 0 and value % 7 == 0:
+#             values.append(value)
+#     print(values)
 
-my_fun(1500, 2700);
+# my_fun(1500, 2700);
 
 
 
@@ -33,13 +33,3 @@ is_leap_year(year)
 #     print(f'{company_name} comapany installed {company_ft_length} fiber optic cable and the total cost is {result} pr ft')
     
 # abdul(cost_fiber, company_name)
-
-
-
-
-
-
-
-
-
-
