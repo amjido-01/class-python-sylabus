@@ -7,3 +7,8 @@ def divisible_by_7_and_multiple_of_5(start, end):
 
 result = divisible_by_7_and_multiple_of_5(1500, 2700)
 print(result)
+
+def print_goodbye_msg():
+    print("Thank you for testing our program")
+
+print_goodbye_msg()

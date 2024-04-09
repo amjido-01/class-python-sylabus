@@ -9,3 +9,8 @@ def contains_dup(arr):
 arr = [1, 2, 3, 4, 3, 5, 3, 3, 0]
 res = contains_dup(arr)
 print(res)
+
+def print_goodbye_msg():
+    print("Thank you for testing our program")
+
+print_goodbye_msg()

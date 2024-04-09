@@ -4,3 +4,8 @@ def array_of_int(arr):
         print(i)
 
 array_of_int(arr)
+
+def print_goodbye_msg():
+    print("Thank you for testing our program")
+
+print_goodbye_msg()

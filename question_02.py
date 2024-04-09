@@ -11,3 +11,8 @@ def temperature_converter(val, unit):
         print("Invalid temperature scale. Please use 'c' for Celsius or 'f' for Fahrenheit.")
 
 temperature_converter(val, unit)
+
+def print_goodbye_msg():
+    print("Thank you for testing our program")
+
+print_goodbye_msg()

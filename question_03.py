@@ -13,3 +13,8 @@ def guess_number():
             print("Wrong guess. Try again.")
 
 guess_number()
+
+def print_goodbye_msg():
+    print("Thank you for testing our program")
+
+print_goodbye_msg()

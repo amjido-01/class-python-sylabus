@@ -10,3 +10,8 @@ def count_occurrences(array, value):
 
 result = count_occurrences(array, 3)
 print(result)
+
+def print_goodbye_msg():
+    print("Thank you for testing our program")
+
+print_goodbye_msg()
