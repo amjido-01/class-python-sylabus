@@ -2,7 +2,6 @@ import random
 
 def guess_number():
     target_number = random.randint(1, 9)
-    print(target_number)
     
     while True:
         guess = int(input("Guess a number between 1 and 9: "))
